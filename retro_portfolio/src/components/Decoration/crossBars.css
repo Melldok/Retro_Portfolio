@@ -1,0 +1,21 @@
+
+
+.crossbarX{
+    width: 5px;
+    height: 80vh;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+    
+  }
+  
+  
+  .crossbarY{
+    position: absolute;
+    bottom: 40vh;
+    height: 5px;
+    width: 40vw;
+    left: 0;
+    background: linear-gradient(280deg, #000000 0%, #FFFFFF 100%);
+  }

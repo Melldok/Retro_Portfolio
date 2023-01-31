@@ -1,0 +1,25 @@
+.entrance{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    
+  }
+  
+  .entrance h1{
+    font-size: 8rem;
+    margin-bottom: 6rem;
+  }
+  
+  .entrance h4{
+    color: grey;
+    font-weight: 300;
+  
+  }
+  
+  
+
+  
+  a{
+    text-decoration: none;
+  }
