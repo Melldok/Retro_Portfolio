@@ -11,9 +11,9 @@
   background-color: white;
   border: 1px solid black;
   font-weight: 500;
-  padding: 10px;
-  box-shadow: -5px 10px 0px 0px rgba(0,0,0,1);
-  
+  font-size: 1.3rem;
+  box-shadow: -5px 5px 0px 0px rgba(0,0,0,1);
+  padding: 0 10px;
 
 }
 

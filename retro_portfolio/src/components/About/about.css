@@ -13,4 +13,35 @@
     font-weight: 800;
     
   }
+
+  .profilePicture{
+    width: 400px;
+    color: black;
+    border: 3px solid black;
+    font-weight: 500;
+    box-shadow: -5px 10px 0px 0px rgb(255, 255, 255);
+    margin-left: 30px;
+  }
   
+
+  .socialIcon img{
+    width: 40px;
+    margin-left: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: 500;
+    box-shadow: -5px 5px 0px 0px rgb(255, 255, 255);
+    margin-left: 30px;
+    transition: 0.4s;
+  }
+
+  .socialIcon img:hover{
+    scale: 1.2;
+  }
+
+
+  .stack{
+    list-style: square;
+    columns: 2;
+    color: rgb(92, 195, 195);
+  }

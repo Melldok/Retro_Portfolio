@@ -1,0 +1,42 @@
+.work{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    box-sizing: border-box;
+    padding: 100px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.work h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    width: 100%;
+    
+  }
+
+.tabPanelP{
+    font-family: IBM Plex Mono;
+    width: 30vw;
+    text-align: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: -5px 10px 0px 0px rgb(0, 0, 0);
+}
+
+.techSpan{
+    background-color: black;
+    color: rgb(92, 195, 195);
+    padding: 2px;
+    
+}
+
+.projectPicture{
+    width: 250px;
+    
+}
