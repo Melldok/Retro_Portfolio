@@ -54,7 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  max-width: 60rem;
 }
 .containerWidth2{
   display: flex;
@@ -63,4 +63,80 @@
   align-items: center;
   max-width: 80rem;
  
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.skilltabs{
+        flex-direction: column;
+        padding: 20px;
+       
+    }
+    .skilltab{
+    
+      width: 100%;
+    }
+
+    .skills h2{
+        display: none;
+    }
+
+
+    .skilltab:nth-child(1){
+      position: initial;
+      top: 0;
+      margin-bottom: 20px;
+
+    }
+
+    .skilltab:nth-child(2){
+      position: initial;
+      top: 0;
+      margin: 0;
+
+    }
+
+
+
+    .skilltab:nth-child(3){
+      position: initial;
+      top: 0;
+      margin-top: 20px;
+    }
+
+    .containerWidth{
+      flex-direction: column;
+      width: 100%;
+      padding: 50px;
+    }
+
+    .entrance{
+      flex-direction: column;
+    }
+
+    .tabPanelP{
+      border: none;
+      width: 100%;
+      margin-bottom: 20px;
+      color: white;
+    }
+   
+    .scrollButtons{
+      color: aqua;
+    }
+
+    .work{
+      padding: 50px 0;
+    }
+
+
+
+  
+}
+
+@media only screen and (max-width: 1000px){
+  .about{
+    padding: 50px;
+  }
 }

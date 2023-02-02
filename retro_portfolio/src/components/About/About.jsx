@@ -10,7 +10,7 @@ export const About = () => {
     
     <section className='about' id='about'>
       <div className="containerWidth">
-      <div className='col-6'>
+      <div>
         <h2 className='mb-5'>About Me</h2>
         <p>
         Hey! I am David.  <br /> <br />

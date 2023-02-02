@@ -46,6 +46,10 @@
    top: -10vh;
 }
 
+.skilltab:nth-child(2){
+    margin: 20px;
+ }
+
 .skilltab:nth-child(3){
     position: relative;
     top: 10vh;
@@ -55,3 +59,4 @@
     font-weight: 300;
     font-size: 16px;
 }
+

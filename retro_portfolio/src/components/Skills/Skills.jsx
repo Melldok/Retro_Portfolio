@@ -28,7 +28,7 @@ export const Skills = () => {
                     Adobe
                 </p>
             </div>
-            <div className="skilltab mx-4">
+            <div className="skilltab">
                 <h5 className='mb-3'>Developer</h5>
                 <img src={deceloper} alt="designerIcon" className='mb-3'/>
                 <p> I like problem solving, information architecture, intelligent design and clean code</p>
