@@ -7,8 +7,10 @@ import linkedin from '../../assets/icons/linkedin.svg'
 export const About = () => {
   return (
     
+    
     <section className='about' id='about'>
-     <div className='col-6'>
+      <div className="containerWidth">
+      <div className='col-6'>
         <h2 className='mb-5'>About Me</h2>
         <p>
         Hey! I am David.  <br /> <br />
@@ -17,7 +19,7 @@ export const About = () => {
         
         My final project for cooking school was about the digitalization of restaurants, because I was always around computers. 2020 was the turning point. I helped some friends to launch their digital businesses and I fell in love with the feeling of fabricating ideas without physical barriers. <br /> <br />
 
-        I enrolled on a six month full stack and UX/UI intensive bootcamp that catapulted me. I became hungry for more so I joined the CS50 computer science Harvard course and a specialization React course. I haven't stopped growing since then!  <br /><br />
+        I enrolled on a six month full stack and UX/UI intensive bootcamp that catapulted me. I became hungry for more so I joined the CS50 computer science Harvard course and codecademy's Full Stack Engineer path. I haven't stopped growing since then!  <br /><br />
 
         Technologies i have been working with recently: <br /><br />
         
@@ -42,6 +44,8 @@ export const About = () => {
           <a className='socialIcon' href="https://www.linkedin.com/in/david-dokic-lazinica-11981a230/" target="_blank"><img src={linkedin} alt="" /></a>
         </div>
      </div>
+      </div>
+
 
      
     </section>

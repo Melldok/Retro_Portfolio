@@ -34,7 +34,7 @@
   border: 1px solid black;
   font-weight: 500;
   padding: 10px;
-  box-shadow: -5px 10px 0px 0px rgb(255, 255, 255);
+  box-shadow: -5px 5px 0px 0px rgb(255, 255, 255);
 
 }
 
@@ -50,3 +50,17 @@
 
 
 
+.containerWidth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+}
+.containerWidth2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+ 
+}

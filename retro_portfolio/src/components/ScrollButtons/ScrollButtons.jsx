@@ -10,7 +10,7 @@ import './scrollButtons.css'
 export const ScrollButtons = () => {
   return (
     
-    <div className='scrollButtons d-flex mb-5'>
+    <div className='scrollButtons d-flex mb-5 animate__animated animate__fadeInDown'>
 
       <div className='d-flex flex-column mt-5 mx-3'>
       <a href="#about"><div className='scrollButton mb-4'> <h3>About</h3><img src={about} alt="About" /></div></a>

@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    box-sizing: border-box;
+    padding: 30vh 0;
     
   }
   
@@ -16,8 +17,23 @@
     font-weight: 300;
   
   }
-  
-  
+  .crossbarY{
+    width: 5px;
+    height: 80vh;
+    position: absolute;
+    top: -40vh;
+    left: -5vh;
+    background: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+    
+  }
+
+  .crossbarX{
+    height: 5px;
+    width: 40vw;
+    position: relative;
+    margin: -8vh 0 50px -20vh;
+    background: linear-gradient(280deg, #000000 0%, #FFFFFF 100%);
+  }
 
   
   a{

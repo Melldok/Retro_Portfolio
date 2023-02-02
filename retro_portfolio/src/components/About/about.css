@@ -1,16 +1,16 @@
 .about{
-    height: 100vh;
+    
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
   }
 
   .about h2{
     font-size: 4rem;
     font-weight: 800;
+    padding-top: 10vh;
     
   }
 
