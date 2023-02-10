@@ -10,7 +10,7 @@ export const About = () => {
     
     <section className='about' id='about'>
       <div className="containerWidth">
-      <div>
+      <div className='textContent' >
         <h2 className='mb-5'>About Me</h2>
         <p>
         Hey! I am David.  <br /> <br />
@@ -25,7 +25,7 @@ export const About = () => {
         
         </p>
         <ol className='stack'>
-          <li><p>Javascript (ES6+)</p></li>
+          <li><p>Javascript/Typescript</p></li>
           <li><p>React</p></li>
           <li><p>Node.js</p></li>
           <li><p>Express.js</p></li>

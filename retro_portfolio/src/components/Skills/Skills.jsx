@@ -38,8 +38,10 @@ export const Skills = () => {
                 <p>
                     Github <br />
                     React <br />
+                    Typescript <br />
                     Postman <br />
-                    Vue.js <br />
+                    Bootstrap <br />
+                    Tailwind <br />
                     Node.js  <br />
                    
                 </p>

@@ -178,7 +178,7 @@ export const Work = () => {
         
             <span className='tabPanelP'>
             <span className='panelTitle'>{'> '}<strong>Case Study</strong></span> <br /><br />
-              More than 200 people were researched to create this app. It's a mental health hub application that connnects professionals with patients and makes easier to find help, since its a major concern in society, specially between young people where suicidal rates are so high and help resources are so hard to find. 
+              More than 200 participants were tested to create this app. It's a mental health hub application that connnects professionals with patients and makes easier to find help, since its a major concern in society, specially between young people where suicidal rates are so high and help resources are so hard to find. 
             <br /><br />
             <span className='techSpan'>Figma, Whimscal, Adobe stack</span>
             </span>
@@ -198,7 +198,7 @@ export const Work = () => {
         
             <span className='tabPanelP'>
             <span className='panelTitle'>{'> '}<strong>UX/UI</strong></span> <br /><br />
-            Volunteering app made like social media. It connects organizations and volunteers to make great impacts on their enviroments. You can search events by proximity or by categories, invite other friends, make comments, contribute and much more. 
+            Volunteering app made like social media. It connects organizations and volunteers to make great impacts on their environments. You can search events by proximity or by categories, invite other friends, make comments, contribute and much more. 
             <br /><br />
             <span className='techSpan'>Figma, Adobe Stack.</span>
             </span>

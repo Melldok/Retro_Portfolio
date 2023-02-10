@@ -66,6 +66,45 @@
 }
 
 
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 850px){
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.stack{
+  columns: 1;
+  list-style: none;
+}
+
+.skills{
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.containerWidth{
+  flex-direction: column;
+}
+
+.textContent{
+  padding: 40px;
+  font-size: 16px;
+}
+
+.about{
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+}
+
+
 
 @media only screen and (max-width: 600px){
 	.skilltabs{
@@ -108,11 +147,17 @@
     .containerWidth{
       flex-direction: column;
       width: 100%;
-      padding: 50px;
+      padding: 10px;
+      text-align: start;
     }
 
     .entrance{
       flex-direction: column;
+      text-align: center;
+    }
+
+    .entrance h4{
+      margin-bottom: 30px;
     }
 
     .tabPanelP{
@@ -130,13 +175,49 @@
       padding: 50px 0;
     }
 
+    .about{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      padding-bottom: 70px;
+    }
+
+    .textContent{
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .about img{
+      margin: 0;
+      width: 100%;
+    }
+
+    .stack{
+      font-size: 14px;
+      list-style: disc;
+
+    }
+
+    .socialIcon:nth-child(2){
+      margin-left: 10px;
+    }
+    
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+  }
+  
+  footer p, footer h2{
+    text-align: center;
+  }
+
 
 
   
 }
 
-@media only screen and (max-width: 1000px){
-  .about{
-    padding: 50px;
-  }
-}
+
+
+
+
+
